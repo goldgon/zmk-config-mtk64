@@ -129,7 +129,7 @@
         layer_5 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp RS(JP_SLASH) &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT     &kp CARET &kp LS(SEMI) &kp ASTERISK &kp SLASH &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans                          &trans  &trans      &trans  &trans                          &trans  &trans
