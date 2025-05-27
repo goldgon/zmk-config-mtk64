@@ -48,7 +48,7 @@
             bindings = <
 &lt 3 ESC &kp F1 &kp F2 &kp F3   &kp F4   &kp F5                                &kp F6 &kp F7   &kp F8    &kp F9  &kp F10  &mkp MB3
 &kp TAB   &lt 3 ESC &kp Q  &kp E  &kp U    &kp P                                &kp D  &kp T    &kp R     &kp W   &mkp MB1 &mkp MB2
-&mt LEFT_SHIFT TAB &mt LEFT_SHIFT TAB &kp O &kp A  &kp I &kp F                &kp H &kp Y &kp K &kp S &mt LEFT_SHIFT B    &kp SHIFT
+&mt LSHIFT TAB &mt LSHIFT TAB &kp O &kp A  &kp I &kp F                &kp H &kp Y &kp K &kp S &mt LEFT_SHIFT B    &kp LSHIFT
 &kp LSHFT &kp Z  &kp X  &kp C    &kp V    &kp B  &kp JP_LBKT        &kp JP_RBKT &kp N  &kp M    &kp COMMA &kp DOT &kp JP_SLASH &kp JP_BSLH
 &kp LALT  &kp LGUI               &lt 1 LANG2     &lt 2 SPACE        &kp BSPC    &kp ENTER                         &kp JP_CARET &kp JP_YEN
                  &tog 2 &kp ENTER                &lt 3 LANG1        &lt 1 ENTER                 &kp ENTER &tog 2
