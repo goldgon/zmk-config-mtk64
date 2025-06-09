@@ -141,10 +141,10 @@
         layer_5 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp RS(JP_SLASH) &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT     &kp CARET &kp LS(SEMI) &kp ASTERISK &kp SLASH &mkp MB2  &trans
+&trans  &kp 0x38 &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT     &kp CARET &kp LS(SEMI) &kp ASTERISK &kp SLASH &mkp MB2  &trans
 &trans  &kp COMMA &kp JP_SEMI &kp JP_AT &kp RS(MINUS) &kp MINUS          &kp LS(SLASH)  &kp EQUAL &kp DOUBLE_QUOTES &kp LS(0x87) &kp LS(0x1e) &trans
 &trans  &kp PERIOD &kp JP_COLON &kp UNDER &kp UNDER &trans  &trans      &trans &kp UNDERSCORE &kp PLUS &trans &trans &kp BACKSLASH  &trans
-&trans  &trans                          &trans  &mo 1       &trans  &trans                          &trans  &trans
+&trans  &trans                          &mo 1 &mo 1       &trans  &trans                          &trans  &trans
                 &trans  &trans                  &trans      &trans                  &trans  &trans
                                                 &trans      &trans
         &trans  &trans  &trans                                                      &trans  &trans  &trans
