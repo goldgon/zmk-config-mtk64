@@ -8,7 +8,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 &mt {
-    tapping-term-ms = <200>;
+    tapping-term-ms = <170>;
     flavor = "tap-preferred";
     quick-tap-ms = <150>;
     require-prior-idle-ms = <125>;
