@@ -55,6 +55,8 @@
 / {
       combos {
         compatible = "zmk,combos";
+        require-prior-idle-ms = <150>;
+
 
         combo_test {
             timeout-ms = <50>;
