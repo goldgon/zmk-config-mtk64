@@ -56,27 +56,57 @@
       combos {
         compatible = "zmk,combos";
 
-        combo_esc {
+        combo_test {
             timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp A>;
         };
 
-        click {
-            bindings = <&mkp MB1>;
-            key-positions = <26 27>;
+        combo_b {
             timeout-ms = <50>;
+            key-positions = <12 13>;
+            bindings = <&kp B>;
+        };
 
-      left_ctrl {
-            bindings = <&kp A>;
-            key-positions = <32 33>;
+
+        combo_c {
+            timeout-ms = <50>;
+            key-positions = <42 43>;
+            bindings = <&kp C>;
+        };
+
+
+        combo_d {
+            timeout-ms = <50>;
+            key-positions = <52 53>;
+            bindings = <&kp D>;
+        };
+
+        combo_e {
+            timeout-ms = <50>;
+            key-positions = <56 57>;
+            bindings = <&kp E>;
+        };
+
+
+        fopen {
+            bindings = <&kp LG(N2)>;
+            key-positions = <40 41>;
             timeout-ms = <50>;
         };
+
+
+        win {
+            bindings = <&kp LGUI>;
+            key-positions = <44 45>;
+            timeout-ms = <50>;
+        };
+
+
 
  
         };
     };
-  };
 
 
 
