@@ -68,6 +68,21 @@ combos {
         timeout-ms = <100>;
         require-prior-idle-ms = <150>;
 
+        combo_fopen {
+            bindings = <&kp LG(N2)>;
+            key-positions = <40 41>;
+        };
+
+        combo_ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <48 49>;
+        };
+
+        combo_win {
+            bindings = <&kp LGUI>;
+            key-positions = <44 45>;
+        };
+
         combo_scoll {
             key-positions = <26 27 28>;
             bindings = <&mo 3>;
