@@ -20,7 +20,7 @@
 //     trigger-period-ms = <10>;    // 10ミリ秒ごとにトリガー
 //    time-to-max-speed-ms = <0>;  // 即座に最大速度に
       acceleration-exponent = <0>;  // 線形加速
-// };
+ };
 
 
 
