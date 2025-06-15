@@ -68,9 +68,9 @@ combos {
         timeout-ms = <100>;
         require-prior-idle-ms = <150>;
 
-        combo_lang2 {
-            key-positions = <11 12>;
-            bindings = <&kp A>;
+        combo_scoll {
+            key-positions = <26 27 28>;
+            bindings = <&mo 3>;
         };
     };
 };
