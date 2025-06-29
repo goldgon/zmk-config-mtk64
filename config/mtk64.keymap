@@ -111,7 +111,7 @@ combos {
             bindings = <
 &lt 3 ESC   &kp F1             &kp F2 &kp F3   &kp F4   &kp F5                                &kp F6 &kp F7   &kp F8    &kp F9  &kp F10  &mkp MB3
 &kp TAB     &lt 3 ESC          &kp Q  &kp E  &kp U    &kp P                                &kp D  &kp T    &kp R     &kp W   &mkp MB1 &mkp MB2
-&kp LSHIFT  &kp TAB            &kp O &lt 3 A  &kp I &kp F                &kp H &kp Y &kp K &kp S &mt LEFT_SHIFT B    &kp LSHIFT
+&kp LSHIFT  &kp TAB            &kp O  &lt 3 A  &kp I &mt LCTRL F               &mt RCTRL H &kp Y &lt 1 K &kp S &mt LEFT_SHIFT B    &kp LSHIFT
 &kp LCTRL   &mt LCTRL PERIOD   &kp X &kp C &kp V &kp L &kp LC(RG(LEFT))        &kp LG(RC(RIGHT)) &kp N &kp M &kp G &kp J &mt RCTRL Z &kp RCTRL
 &kp LALT    &kp LGUI                              &mo 1 &mo 5         &mo 2 &mo 2                         &kp RGUI &kp RALT
                  &tog 2 &kp ENTER                &mo 3              &lt 6 ENTER                 &kp ENTER &tog 2
