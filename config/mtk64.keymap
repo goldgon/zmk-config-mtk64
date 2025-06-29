@@ -70,6 +70,11 @@ combos {
 
         combo_fopen {
             bindings = <&kp LG(N2)>;
+            key-positions = <21 22>;
+        };
+
+        wintab {
+            bindings = <&kp LG(TAB)>;
             key-positions = <40 41>;
         };
 
