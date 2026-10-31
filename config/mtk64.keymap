@@ -214,11 +214,12 @@ combos {
         layer_1 {
             display-name = "SNP";
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5
-                                                                    &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &studio_unlock
-&trans  &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                    &trans            &kp PG_UP          &kp UP_ARROW    &kp PG_DN             &trans                &scrl_inv_tog  
-&trans  &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK                                &kp HOME          &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp END               &aml_tog  
-&trans  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &mkp MB4       &mkp MB5          &mkp MB1           &mkp MB2        &mkp MB3              &trans                &cpi_inc
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5           &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &studio_unlock
+
+&trans  &kp 0x38      &none      &kp UP     &none      &none                                   &kp TAB        &kp UP     &kp JP_SQT  &kp JP_DQT  &mkp MB2                &scrl_inv_tog  
+&trans  &kp JP_SEMI   &kp LEFT   &kp GRAVE  &kp GRAVE  &kp MINUS                                &kp BACKSPACE  &kp SPACE  &kp TAB     &kp ENTER   &kp COMMA              &aml_tog  
+&trans  &kp JP_COLON  &none      &none      &none      &none     &kp PERIOD    &kp EQUAL        &kp DELETE     &none      &none       &none       &mt LCTRL PERIOD                &cpi_inc
+
 &trans  &trans                                                                         &trans        &trans         &trans         &trans                                                                     &trans                &cpi_dec
                                     &trans           &trans                                          &trans         &trans                                              &trans          &trans
                                                                                                      &trans         &trans
