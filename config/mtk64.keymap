@@ -308,14 +308,16 @@ combos {
             display-name = "AML";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4        &mkp MB5        &mkp MB1        &mkp MB2        &mkp MB3  &trans  &trans
+
+&trans  &none   &msc SCRL_RIGHT    &mmv MOVE_Y(-1000)  &msc SCRL_UP       &none                                  &trans  &trans  &trans  &trans  &mkp MB1  &trans
+&trans  &none   &mmv MOVE_X(-1000) &mmv MOVE_Y(1000)   &mmv MOVE_X(1000)  &none                                  &none  &kp LC(D) &kp TAB  &kp ENTER &none  &trans
+&trans  &trans  &msc SCRL_LEFT     &trans              &msc SCRL_DOWN     &trans       &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans
+
 &trans  &trans                          &trans  &trans      &trans  &trans                          &trans  &trans
                 &trans  &trans                  &trans      &trans                  &trans  &trans
                                                 &trans      &trans
         &trans  &trans  &trans                                                      &trans  &trans  &trans
-                                               &trans &trans &trans 
+                                               &trans &trans &trans
             >;
         };
     };
