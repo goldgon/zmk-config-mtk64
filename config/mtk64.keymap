@@ -231,10 +231,12 @@ combos {
         layer_2 {
             display-name = "MSE";
             bindings = <
-&trans  &kp F1                      &kp F2           &kp F3           &kp F4           &kp F5                                      &kp F6            &kp F7             &kp F8          &kp F9                &kp F10               &kp F11
-&trans  &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                    &trans            &kp PG_UP          &kp UP_ARROW    &kp PG_DN             &trans                &trans  
-&trans  &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK                                &kp HOME          &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp END               &trans  
-&trans  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &mkp MB4       &mkp MB5          &mkp MB1           &mkp MB2        &mkp MB3              &trans                &trans  
+&trans  &kp F1                      &kp F2           &kp F3           &kp F4           &kp F5                                      &kp F6  &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
+
+&trans  &none        &kp JP_LT      &kp JP_EQUAL   &kp JP_RT    &kp JP_PRCNT                                   &kp JP_DLLR   &kp JP_PLUS  &kp JP_CARET      &kp JP_SLASH  &mkp MB3                &trans  
+&trans  &kp JP_LBKT  &kp JP_LPAR    &kp JP_AT      &kp JP_RPAR  &kp JP_RBKT                                 &kp JP_QMARK  &kp JP_HASH  &kp DOUBLE_QUOTES &kp LS(0x87)  &kp LS(0x1e)               &trans  
+&trans  &kp JP_TILDE &kp JP_LBRC    &kp JP_AMPS    &kp JP_RBRC  &none            &kp PERIOD    &kp EQUAL      &kp JP_YEN    &none        &kp JP_SQT        &kp JP_PIPE   &none             &trans                &trans  
+
 &trans  &trans                                                                         &trans        &trans         &trans         &trans                                                                     &trans                &trans
                                     &trans           &trans                                          &trans         &trans                                              &trans          &trans
                                                                                                      &trans         &trans
