@@ -68,8 +68,8 @@
 /{
 combos {
         compatible = "zmk,combos";
-        timeout-ms = <100>;
-        require-prior-idle-ms = <150>;
+//        timeout-ms = <100>;
+//        require-prior-idle-ms = <150>;
 
         combo_fopen {
             bindings = <&kp LG(N2)>;
