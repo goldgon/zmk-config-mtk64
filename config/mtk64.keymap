@@ -253,9 +253,11 @@ combos {
             display-name = "SCR";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+
+&trans   &none        &kp HOME   &kp UP     &kp PAGE_UP      &none                              &kp TAB          &kp N7          &kp N8        &kp N9         &mkp MB3  &trans
+&trans  &none        &kp LEFT   &kp DOWN   &kp RIGHT        &none                               &kp BACKSPACE  &kp N4          &mt RGUI N5        &kp N6         &kp ENTER  &trans
+&trans  &none        &kp END    &none      &kp PAGE_DOWN    &none       &trans      &trans        &kp N0         &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD  &trans
+
 &trans  &trans                          &trans  &trans      &trans  &trans                          &trans  &trans
                 &trans  &trans                  &trans      &trans                  &trans  &trans
                                                 &trans      &trans
