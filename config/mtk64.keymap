@@ -320,5 +320,41 @@ combos {
                                                &trans &trans &trans
             >;
         };
+
+        layer_7 {
+            display-name = "AML";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+
+&trans  &none   &msc SCRL_RIGHT    &mmv MOVE_Y(-300)  &msc SCRL_UP       &none                                  &trans  &trans  &trans  &trans  &mkp MB1  &trans
+&trans  &none   &mmv MOVE_X(-300) &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &none                                  &none  &kp LC(D) &kp TAB  &kp ENTER &none  &trans
+&trans  &trans  &msc SCRL_LEFT     &trans              &msc SCRL_DOWN     &trans       &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans
+
+&trans  &trans                          &trans  &trans      &trans  &trans                          &trans  &trans
+                &trans  &trans                  &trans      &trans                  &trans  &trans
+                                                &trans      &trans
+        &trans  &trans  &trans                                                      &trans  &trans  &trans
+                                               &trans &trans &trans
+            >;
+        };
+
+        layer_8 {
+            display-name = "AML";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+
+&trans  &none   &msc SCRL_RIGHT    &mmv MOVE_Y(-100)  &msc SCRL_UP       &none                                  &trans  &trans  &trans  &trans  &mkp MB1  &trans
+&trans  &none   &mmv MOVE_X(-100) &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &none                                  &none  &kp LC(D) &kp TAB  &kp ENTER &none  &trans
+&trans  &trans  &msc SCRL_LEFT     &trans              &msc SCRL_DOWN     &trans       &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans
+
+&trans  &trans                          &trans  &trans      &trans  &trans                          &trans  &trans
+                &trans  &trans                  &trans      &trans                  &trans  &trans
+                                                &trans      &trans
+        &trans  &trans  &trans                                                      &trans  &trans  &trans
+                                               &trans &trans &trans
+            >;
+        };
+
+
     };
 };
