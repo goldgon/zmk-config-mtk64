@@ -8,9 +8,29 @@
 // スクロール量の設定
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
-&mt {
+&msc {
+    acceleration-exponent = <0>;      // 0
+    time-to-max-speed-ms = <0>;       // 300
+    delay-ms = <0>;                   // 0
+};
+
+&mmv {
+    time-to-max-speed-ms = <0>;
+    acceleration-exponent = <0>;
+    trigger-period-ms = <10>;
+    delay-ms = <0>;
+};
+
+&mt { 
+    flavor = "balanced"; 
+    tapping-term-ms = <200>;
+    quick-tap-ms = <150>; 
+};
+
+&lt {
     flavor = "balanced";
-    quick-tap-ms = <0>;
+    tapping-term-ms = <200>; 
+    quick-tap-ms = <150>; 
 };
 
 &mkp_input_listener {
