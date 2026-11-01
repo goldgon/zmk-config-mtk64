@@ -1,6 +1,10 @@
 #include "mtk64.dtsi"
 #include "mtk64_trackball.dtsi"
 
+#include <dt-bindings/input/input-event-codes.h>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+#include <input/processors.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
 
 / {
     input_processors {
@@ -73,8 +77,8 @@
             input-processors = 
                 <&zip_xy_to_scroll_mapper>, 
                 <&zip_scroll_inverter>, 
-                <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, 
-//<&zip_scroll_x_scaler 0 1>,
+                <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+//              <&zip_scroll_x_scaler 0 1>,
                 <&zip_scroll_scaler 1 64>;
             process-next;
         };
