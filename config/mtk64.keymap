@@ -218,10 +218,9 @@ combos {
 
 &trans  &kp 0x38      &none      &kp UP     &none      &none                                   &kp TAB        &kp UP     &kp JP_SQT  &kp JP_DQT  &mkp MB2                &scrl_inv_tog  
 &trans  &kp JP_SEMI   &kp LEFT   &kp GRAVE  &kp GRAVE  &kp MINUS                                &kp BACKSPACE  &kp SPACE  &kp TAB     &kp ENTER   &kp COMMA              &aml_tog  
-&trans  &kp JP_COLON  &none      &none      &none      &none     &kp PERIOD    &kp EQUAL        &kp DELETE     &none      &none       &none       &mt LCTRL PERIOD                &cpi_inc
-
-&trans  &trans                                                                         &trans        &trans         &trans         &trans                                                                     &trans                &cpi_dec
-                                    &trans           &trans                                          &trans         &trans                                              &trans          &trans
+&trans  &kp JP_COLON  &none      &none      &none      &none     &kp PERIOD    &kp EQUAL        &kp DELETE     &none      &none       &none       &mt LCTRL PERIOD       &cpi_inc
+&trans  &trans                                       &trans        &trans         &trans         &trans                                            &trans                &cpi_dec
+                                    &trans           &trans        &trans         &trans                                              &trans          &trans
                                                                                                      &trans         &trans
         &trans                      &trans           &trans                                                                                                             &trans          &trans                &trans
                                                                                                      &trans &trans  &trans 
