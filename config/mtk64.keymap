@@ -198,11 +198,11 @@ combos {
 &kp LCTRL &mt LSHIFT TAB  &lt 3 O    &lt 2 A    &lt 1 I       &mt LCTRL F                                 &mt RCTRL H  &lt 1 Y       &lt 2 K     &lt 3 S     &mt LEFT_SHIFT B  &kp JP_COLON
 &kp LSHFT &lt 4 MINUS     &mt LGUI X &mt LALT C &mt LSHIFT V  &mt LCTRL L &kp LC(RG(LEFT))             &kp LG(RC(RIGHT)) &mt RCTRL N  &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 4 Z &kp JP_BSLH
 
-&kp LALT  &kp LGUI               &lt 1 LANG2     &lt 2 SPACE        &kp BSPC    &kp ENTER                         &kp JP_CARET &kp JP_YEN
-                 &tog 2 &kp ENTER                &lt 3 LANG1        &lt 1 ENTER                 &kp ENTER &tog 2
-                                                 &kp LG(C)          &kp LG(V)
-          &mo 1  &mo 2  &mo 3                                                                   &mo 1     &mo 2   &mo 3
-                                                 &mo 1    &mo 2     &mo 3  
+&kp LALT  &kp LGUI               &kp LC(RG(LEFT))    &kp LC(RG(LEFT))                                           &kp LG(RC(RIGHT))    &kp LG(RC(RIGHT))                        &kp JP_CARET &kp JP_YEN
+                 &tog 2 &kp ENTER               &kp LC(RG(LEFT))                                          &kp LG(RC(RIGHT))                 &kp ENTER &tog 2
+                                                 &kp LG(C)                                             &kp LG(V)
+          &mo 1  &mo 2  &mo 3                                                                                                    &mo 1     &mo 2   &mo 3
+                                                                        &mo 1    &mo 2     &mo 3  
             >;
 
             sensor-bindings = <
