@@ -198,7 +198,7 @@ combos {
 &kp LCTRL &mt LSHIFT TAB  &lt 3 O    &lt 2 A    &lt 1 I       &mt LCTRL F                                 &mt RCTRL H  &lt 1 Y       &lt 2 K     &lt 3 S     &mt LEFT_SHIFT B  &none
 &kp LSHFT &lt 4 MINUS     &mt LGUI X &mt LALT C &mt LSHIFT V  &mt LCTRL L &kp LC(RG(LEFT))             &kp LG(RC(RIGHT)) &mt RCTRL N  &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 4 Z &none
 
-&kp LALT  &kp LGUI               &kp LC(RG(LEFT))    &kp LC(RG(LEFT))                                           &kp LG(RC(RIGHT))    &kp LG(RC(RIGHT))                        &kp JP_CARET &kp JP_YEN
+&kp LALT  &kp LGUI               &kp LC(RG(LEFT))    &kp LC(RG(LEFT))                                           &kp LG(RC(RIGHT))    &kp LG(RC(RIGHT))                        &none &none
                  &tog 2 &kp ENTER               &kp LC(RG(LEFT))                                          &kp LG(RC(RIGHT))                 &kp ENTER &tog 2
                                                  &kp LG(C)                                             &kp LG(V)
           &mo 1  &mo 2  &mo 3                                                                                                    &mo 1     &mo 2   &mo 3
